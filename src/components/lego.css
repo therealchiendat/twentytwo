@@ -398,7 +398,8 @@ body {
     position: absolute;
     top: 9.25em;
     width: 100%;
-    color: hsl(200, 0%, 90%);
+    /* color: hsl(200, 0%, 90%); */
+    color: #00b7f7;
 }
 
 .upper-body::before,
@@ -542,7 +543,8 @@ body {
     width: 10em;
     height: 11.75em;
     transform: translateX(-50%);
-    color: hsl(200, 0%, 90%);
+    /* color: hsl(200, 0%, 90%); */
+    color: #0086f4;
     transition: transform 400ms;
 }
 

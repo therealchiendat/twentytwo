@@ -1,7 +1,7 @@
 export const welcomeStringList = [
     {title: "Just smile", text: "Leave the math to us", subtext: ""},
-    {title: "Seemless integration", text: "wearing braces can be as simple as 1,2,3", subtext: ""},
-    {title: "Insightful data", text: "bla bla bla", subtext: ""},
+    {title: "Aligning Tech & Teeth ", text: "", subtext: "Our smart case linked via Bluetooth to 22s proprietary app helps you stay on track to your aligners schedule"},
+    {title: "Insightful data", text: "", subtext: ""},
 ]
 
 export default {welcomeStringList}

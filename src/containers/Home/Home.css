@@ -1,13 +1,14 @@
 .Home {
     height: 600vh;
     width: 100vw;
-    background: #191919;
+    background: var(--theme-background);
+    margin-top: 100px;
 }
 
 .Home .header-container {
-    height: 600vh;
+    height: 500vh;
     width: 100%;
-    background: #f9f8f7;
+    background: var(--theme-background);
 }
 
 .Home .header {
@@ -45,6 +46,13 @@
 
 .Home .prompts {
     padding: 200px 0 500px 0;
+    text-overflow: wrap;
+    overflow: wrap;
+    max-width: 50vw;
+}
+
+.Home .subtext {
+    font-size: 25px;
 }
 
 
@@ -54,21 +62,22 @@ Hello Text
 
 .Home .hello {
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: 20px;
     z-index: 1;
     font-size: 38px;
     line-height: 1.18;
     padding-bottom: 5px;
-    background-image: -webkit-linear-gradient(135deg, #fd754c, #ee3969, #db3a9e, #878c40, #445f83, #5c4a22, #ddb70e);
-    background-image: linear-gradient(135deg, #fd754c, #ee3969, #db3a9e, #878c40, #445f83, #5c4a22, #ddb70e);
+    /* background-image: -webkit-linear-gradient(135deg, #fd754c, #ee3969, #db3a9e, #878c40, #445f83, #5c4a22, #ddb70e);
+    background-image: linear-gradient(135deg, #fd754c, #ee3969, #db3a9e, #878c40, #445f83, #5c4a22, #ddb70e); */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .Home .hello span {
-    z-index: -1;
-    user-select: none;
+    color: var(--theme-text-color);
+    /* z-index: -1; */
+    /* user-select: none; */
 }
 
 .Home .hello .select {
@@ -87,18 +96,6 @@ Hello Text
     color: red !important;
     -webkit-text-fill-color: red;
     background: rgb(219, 190, 58);
-}
-
-
-/*--------------------
-Social Section
---------------------*/
-
-.Home .socialSection {
-    text-align: center;
-    position: absolute;
-    width: 100vw;
-    bottom: 0;
 }
 
 
@@ -154,7 +151,7 @@ ______________________________ */
     text-transform: uppercase;
     font-size: 100px;
     font-weight: bold;
-    color: transparent;
+    color: var(--theme-text-color);
     z-index: 30 !important;
 }
 
@@ -162,7 +159,7 @@ ______________________________ */
     text-decoration: none !important;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
-    color: transparent;
+    color: var(--theme-text-color);
     transition-duration: 0.5s;
 }
 

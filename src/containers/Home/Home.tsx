@@ -118,24 +118,12 @@ export default function Home() {
                 </div>
                 <div className="sub-header">
                     <div className="hello" >
-                        <span id="hellomsg">
-                            Hi, we're TwentyTwo<br />
-                            scroll down <br />
-                            to see more<br />
-                        </span>
-                        <div id="selectmsg" className="select">
-                            so you are &nbsp; &nbsp; &nbsp; &nbsp; <br />
-                            that kind of person &nbsp; &nbsp; &nbsp; <br />
-                            that love to select  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />
-                            everything &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />
-                            in a website. &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; <br />
-                            think about it. &nbsp; &nbsp; &nbsp; &nbsp; <br />
-                        </div>
                         <span className="prompt-container">
                             {welcomeStringList.map((r, i) =>
                                 <div className="prompts" key={i}>
-                                    <h1>{r.title}</h1>
+                                    <h2>{r.title}</h2>
                                     <p>{r.text}</p>
+                                    <p className="subtext">{r.subtext}</p>
                                 </div>
                             )}
                         </span>
