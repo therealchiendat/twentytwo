@@ -1,0 +1,23 @@
+.About {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.About .about-item {
+    padding: 10px;
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+}
+
+.About h1 {
+    text-align: center;
+    color: var(--theme-text-color)
+}
+
+.About p {
+    text-align: justify;
+    color: var(--theme-text-body-color);
+    white-space: pre-wrap;
+}

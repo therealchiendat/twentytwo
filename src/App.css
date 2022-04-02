@@ -3,14 +3,24 @@
     /* ================== */
     /* Colors: */
     --theme-text-color: #0f4c8a;
+    --theme-text-body-color: black;
     --theme-color: #0f4c8a;
     --theme-color-light: #4774a1;
     --theme-background: white;
 }
 
+.Routes {
+    margin: 100px 10px;
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
+}
+
+.App .a-link {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .App .appBar {
